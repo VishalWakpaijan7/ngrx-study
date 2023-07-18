@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "NG-RX",
+      "author": "Sachin Wakpaijan"
+    },
+    {
+      "id": 2,
+      "title": "RXJS",
+      "author": "Vishal Wakpaijan"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
