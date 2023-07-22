@@ -1,1 +1,15 @@
-<router-outlet></router-outlet>
+<header>
+    <nav>
+        <div class="left">
+            <img src="../assets/svg/angular.svg" width="100%" height="100%" alt="Angular Icon">
+        </div>
+        <div class="right">
+            <li routerLink="home">Home</li>
+            <li routerLink="posts">Posts</li>
+            <li routerLink="rxjs">RxJs</li>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
