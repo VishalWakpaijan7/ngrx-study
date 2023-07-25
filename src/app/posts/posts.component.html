@@ -1,8 +1,0 @@
-<div class="posts-wrapper">
-    <div *ngIf="isLoading$ | async">Loading...</div>
-    <div *ngIf="error$ | async as error ">{{error}}</div>
-    <div *ngFor="let post of posts$ | async">
-        <h2>{{post.title}}</h2>
-        <h4>{{post.author}}</h4>
-    </div>
-</div>
